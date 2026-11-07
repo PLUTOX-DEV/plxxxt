@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Bad Luck Coin",
+      "hasCanvas": false,
+      "bodyTextLen": 986,
+      "bodyTextHash": "8be52aa72e3c4886243f4f79f4b6c214f446dc16c668c23627bd6409fef0063d",
+      "bodyTextPrefix": "BAD LUCK Chart Kneel Club Copy CA GLOBAL CLUB OF LOSERS Bad Luck",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Bad Luck Coin",
+      "hasCanvas": false,
+      "bodyTextLen": 1081,
+      "bodyTextHash": "5e211f901e52b039274e46d7cce379c2457f18908b1e794fc12dd3a3958fecbf",
+      "bodyTextPrefix": "BAD LUCK Copy CA GLOBAL CLUB OF LOSERS Bad Luck Coin No luck. No",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Bad Luck Coin",
+      "hasCanvas": false,
+      "bodyTextLen": 986,
+      "bodyTextHash": "8be52aa72e3c4886243f4f79f4b6c214f446dc16c668c23627bd6409fef0063d",
+      "bodyTextPrefix": "BAD LUCK Chart Kneel Club Copy CA GLOBAL CLUB OF LOSERS Bad Luck",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Bad Luck Coin",
+      "hasCanvas": false,
+      "bodyTextLen": 969,
+      "bodyTextHash": "ad2704719c310cd90f62791b15d4890ce6bfb079c768eede535ef89017f5912a",
+      "bodyTextPrefix": "BAD LUCK Copy CA GLOBAL CLUB OF LOSERS Bad Luck Coin No luck. No",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: body text changed (1081 -> 969 chars, hash mismatch)"
+  ]
+}

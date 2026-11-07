@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #050505;
+  --color-surface: #10100c;
+  --color-surface-2: #181812;
+  --color-fg: #f4ecd8;
+  --color-muted: #a89f8a;
+  --color-gold: #e8b84a;
+  --color-gold-dim: #8a6a28;
+  --color-flame: #39d353;
+  --color-flame-dim: #146b28;
+  --color-drip: #2a2a22;
+  --color-border: #2a281f;
+  --color-danger: #ff5a3c;
+  --font-display: "Cinzel", "Times New Roman", serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --radius: 0.875rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    min-height: 100vh;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+.flame-ring {
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--color-flame) 35%, transparent),
+    0 0 48px color-mix(in srgb, var(--color-flame) 28%, transparent);
+}
+
+.gold-glow {
+  text-shadow: 0 0 28px color-mix(in srgb, var(--color-gold) 45%, transparent);
+}
